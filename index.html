@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/style/style.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,12 +13,11 @@
     <title>Document</title>
 </head>
 <body>
-    
-
-    <section class="banner">
-        <div class="container">
-            <header class="header">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="184" height="27" viewBox="0 0 184 27" fill="none" class="logo">
+    <div class="background__container">
+        <header class="header">
+            <div class="container header__container">
+                <a href="#" class="header__logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="184" height="27" viewBox="0 0 184 27" fill="none">
                         <path d="M16.0136 21.0865H7.81939L6.38839 25.7644H0L9.09706 0.723712H14.7188L23.884 25.7644H17.4616L16.0136 21.0865ZM9.25038 16.4257H14.5826L11.908 7.74061L9.25038 16.4257Z" fill="#656980"/>
                         <path d="M45.4001 17.2856C45.3206 19.0284 44.855 20.5705 44.0032 21.912C43.1514 23.242 41.9532 24.2739 40.4087 25.0077C38.8755 25.7415 37.1208 26.1084 35.1446 26.1084C31.8851 26.1084 29.3184 25.0363 27.4445 22.8923C25.5706 20.7482 24.6336 17.7213 24.6336 13.8116V12.5733C24.6336 10.1197 25.0538 7.97565 25.8943 6.14117C26.746 4.29522 27.9669 2.8735 29.5569 1.876C31.1469 0.867031 32.9868 0.362549 35.0765 0.362549C38.0861 0.362549 40.5052 1.16513 42.3337 2.77031C44.1622 4.36401 45.2014 6.56539 45.4512 9.37444H39.4887C39.4433 7.84953 39.0629 6.75457 38.3474 6.08957C37.6319 5.42457 36.5416 5.09207 35.0765 5.09207C33.5887 5.09207 32.4984 5.65388 31.8056 6.7775C31.1129 7.90112 30.7494 9.69548 30.7154 12.1606V13.932C30.7154 16.6034 31.0447 18.5125 31.7034 19.659C32.3735 20.8056 33.5206 21.3788 35.1446 21.3788C36.5189 21.3788 37.5694 21.0521 38.2962 20.3985C39.0231 19.745 39.4092 18.7074 39.4547 17.2856H45.4001Z" fill="#656980"/>
                         <path d="M67.1888 5.38444H59.7442V25.7644H53.7647V5.38444H46.4563V0.723712H67.1888V5.38444Z" fill="#656980"/>
@@ -29,28 +28,47 @@
                         <path d="M162.074 15.1015C162.074 17.2684 161.688 19.1889 160.915 20.8629C160.154 22.5254 159.064 23.8152 157.644 24.7325C156.225 25.6383 154.589 26.0912 152.738 26.0912C149.944 26.0912 147.684 25.0879 145.958 23.0815C144.232 21.075 143.368 18.3691 143.368 14.9639V11.3522C143.368 9.19672 143.749 7.28198 144.51 5.60802C145.282 3.93405 146.378 2.64419 147.798 1.73841C149.229 0.821169 150.864 0.362549 152.704 0.362549C154.555 0.362549 156.191 0.821169 157.61 1.73841C159.041 2.64419 160.143 3.93979 160.915 5.62522C161.688 7.29918 162.074 9.20819 162.074 11.3522V15.1015ZM161.154 11.3178C161.154 8.29095 160.393 5.86599 158.871 4.04298C157.349 2.2085 155.293 1.29126 152.704 1.29126C150.149 1.29126 148.11 2.20276 146.588 4.02578C145.066 5.83733 144.305 8.30815 144.305 11.4382V15.1015C144.305 17.0965 144.646 18.8621 145.328 20.3985C146.02 21.9234 147.003 23.0987 148.275 23.9242C149.547 24.7497 151.035 25.1624 152.738 25.1624C155.328 25.1624 157.377 24.2509 158.888 22.4279C160.398 20.6049 161.154 18.1169 161.154 14.9639V11.3178Z" fill="white"/>
                         <path d="M174.373 12.2465L182.38 0.706514H183.539L174.953 12.9689L183.862 25.7472H182.721L174.373 13.6912L165.992 25.7472H164.885L173.794 12.9689L165.208 0.706514H166.367L174.373 12.2465Z" fill="white"/>
                     </svg>
+                </a>
+                
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="" class="header__link">features</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="" class="header__link">works</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="" class="header__link">our team</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="" class="header__link">testimonials</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="" class="header__link">download</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button class="burger">
+                    <span></span>
+                </button>
+            </div>
+        </header>
         
-                    
-                    <div class="header__nav">
-                        <div class="header__nav-link">features</div>
-                        <div class="header__nav-link">works</div>
-                        <div class="header__nav-link">our team</div>
-                        <div class="header__nav-link">testimonials</div>
-                        <div class="header__nav-link">download</div>
-                    </div>
 
-                    <div class="burger">
-                        <span></span>
-                    </div>
-            </header>
+        <section class="banner">
+            <div class="container">
+                
 
-            <h1 class="banner__title">Your Favorite One Page
-                Multi Purpose Template</h1>
-            <p class="banner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
-                vel scelerisque nisl consectetur et.</p>
-            <button class="banner__button">find out more</button>
-        </div>
-    </section>
+                <h1 class="banner__title">Your Favorite One Page
+                    Multi Purpose Template</h1>
+                <p class="banner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
+                    vel scelerisque nisl consectetur et.</p>
+                <button class="banner__button">find out more</button>
+            </div>
+        </section>
+    </div>
 
 </body>
 </html>
