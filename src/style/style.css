@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.background__container {
+  position: relative;
+  background-image: url("../images/banner_bckg.png");
+  background-position: center;
+  background-size: cover;
+}
+.background__container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(37, 43, 73, 0.8);
+}
+
+.header {
+  position: fixed;
+  z-index: 1;
+  max-width: 1550px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header::after {
+  content: "";
+  border-bottom: 1px solid rgb(186, 187, 197);
+  bottom: 6px;
+  left: 50%;
+  width: calc(100% - 40px);
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.header__list {
+  list-style-type: none;
+  display: flex;
+  z-index: 1;
+  position: relative;
+}
+
+.header__logo {
+  z-index: 1;
+  padding: 38.36px 0 36px;
+  display: flex;
+}
+
+.header__item {
+  list-style-type: none;
+}
+
+.header__link {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15.26px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 36px 5px;
+  display: block;
+  min-width: 134px;
+  text-align: center;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+.header__link:hover {
+  border-bottom: 3px solid rgb(186, 187, 197);
+}
+.header__link:active {
+  border-bottom: 3px solid rgb(231, 20, 20);
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner {
+  position: relative;
+  padding-bottom: 120px;
+  padding-top: 230px;
+}
+
+.burger {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30px;
+  height: 18px;
+  display: none;
+}
+.burger::before, .burger::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #FFF;
+  transition: all 0.3s ease 0s;
+  left: 0;
+}
+.burger::before {
+  top: 0;
+}
+.burger::after {
+  bottom: 0;
+}
+.burger span {
+  width: 100%;
+  height: 2px;
+  transform: scale(1);
+  background-color: #FFF;
+}
+.burger.active span {
+  transform: scale(0);
+}
+.burger.active::before {
+  top: 50%;
+  transform: rotate(-45deg) translate(0, -50%);
+}
+.burger.active::after {
+  bottom: 50%;
+  transform: rotate(45deg) translate(0, 50%);
+}
+
+.banner__title, .banner__text, .banner__button {
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner__title {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75.14px;
+  color: rgb(255, 255, 255);
+  max-width: 1170px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 31.43px;
+}
+
+.banner__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.18px;
+  color: rgb(255, 255, 255);
+  max-width: 1170px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.banner__button {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28.18px;
+  color: rgb(255, 255, 255);
+  max-width: 370px;
+  background-color: rgb(255, 67, 67);
+  padding: 20px 0;
+  border: none;
+  text-transform: uppercase;
+  display: block;
+  cursor: pointer;
+}
+.banner__button:hover {
+  background-color: rgb(231, 20, 20);
+}
+.banner__button:active {
+  box-shadow: 4px 4px 30px 0px rgb(255, 67, 67);
+}
+
+@media screen and (max-width: 1024px) {
+  .header__nav-link {
+    font-size: 12px;
+    line-height: 14.09px;
+  }
+  .header {
+    margin-bottom: 156px;
+  }
+  .header::after {
+    width: 984px;
+  }
+  .banner__title {
+    font-size: 48px;
+    line-height: 56.35px;
+  }
+  .banner__text {
+    font-size: 18px;
+    line-height: 21.13px;
+    max-width: 755px;
+  }
+  .banner__button {
+    max-width: 314px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 360px;
+  }
+  .banner {
+    padding-bottom: 52px;
+    padding-top: 106px;
+  }
+  .header {
+    padding: 19px 0;
+  }
+  .header::after {
+    display: none;
+  }
+  .banner__title {
+    font-size: 36px;
+    line-height: 42.26px;
+    max-width: 280px;
+  }
+  .banner__text {
+    font-size: 14px;
+    line-height: 16.44px;
+    max-width: 280px;
+    padding: 0;
+  }
+  .banner__button {
+    max-width: 280px;
+  }
+  .header__logo {
+    padding: 0;
+  }
+  .header::after,
+  .header__nav {
+    display: none;
+  }
+  .burger {
+    display: block;
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    border: none;
+  }
+  .burger span {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
