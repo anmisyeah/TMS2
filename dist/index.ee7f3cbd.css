@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+
+.background__container {
+  background-image: url("banner_bckg.820c4515.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.background__container:after {
+  content: "";
+  background: #252b49cc;
+  position: absolute;
+  inset: 0;
+}
+
+.header {
+  z-index: 1;
+  width: 100%;
+  max-width: 1550px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header:after {
+  content: "";
+  border-bottom: 1px solid #babbc5;
+  width: calc(100% - 40px);
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header__list {
+  z-index: 1;
+  list-style-type: none;
+  display: flex;
+  position: relative;
+}
+
+.header__logo {
+  z-index: 1;
+  padding: 38.36px 0 36px;
+  display: flex;
+}
+
+.header__item {
+  list-style-type: none;
+}
+
+.header__link {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 3px solid #0000;
+  min-width: 134px;
+  padding: 36px 5px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.26px;
+  text-decoration: none;
+  transition: border-bottom .3s;
+  display: block;
+}
+
+.header__link:hover {
+  border-bottom: 3px solid #babbc5;
+}
+
+.header__link:active {
+  border-bottom: 3px solid #e71414;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header__container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.banner {
+  padding-top: 230px;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.burger {
+  justify-content: flex-end;
+  align-items: center;
+  width: 30px;
+  height: 18px;
+  display: none;
+  position: relative;
+}
+
+.burger:before, .burger:after {
+  content: "";
+  background-color: #fff;
+  width: 100%;
+  height: 2px;
+  transition: all .3s;
+  position: absolute;
+  left: 0;
+}
+
+.burger:before {
+  top: 0;
+}
+
+.burger:after {
+  bottom: 0;
+}
+
+.burger span {
+  background-color: #fff;
+  width: 100%;
+  height: 2px;
+  transform: scale(1);
+}
+
+.burger.active span {
+  transform: scale(0);
+}
+
+.burger.active:before {
+  top: 50%;
+  transform: rotate(-45deg)translate(0, -50%);
+}
+
+.burger.active:after {
+  bottom: 50%;
+  transform: rotate(45deg)translate(0, 50%);
+}
+
+.banner__title, .banner__text, .banner__button {
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+  position: relative;
+}
+
+.banner__title {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 1170px;
+  margin-bottom: 31.43px;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 75.14px;
+}
+
+.banner__text {
+  color: #fff;
+  text-align: center;
+  max-width: 1170px;
+  margin-bottom: 80px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.18px;
+}
+
+.banner__button {
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #ff4343;
+  border: none;
+  max-width: 370px;
+  padding: 20px 0;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28.18px;
+  display: block;
+}
+
+.banner__button:hover {
+  background-color: #e71414;
+}
+
+.banner__button:active {
+  box-shadow: 4px 4px 30px #ff4343;
+}
+
+@media screen and (width <= 1024px) {
+  .header__nav-link {
+    font-size: 12px;
+    line-height: 14.09px;
+  }
+
+  .header {
+    margin-bottom: 156px;
+  }
+
+  .header:after {
+    width: 984px;
+  }
+
+  .banner__title {
+    font-size: 48px;
+    line-height: 56.35px;
+  }
+
+  .banner__text {
+    max-width: 755px;
+    font-size: 18px;
+    line-height: 21.13px;
+  }
+
+  .banner__button {
+    max-width: 314px;
+  }
+}
+
+@media screen and (width <= 320px) {
+  .container {
+    max-width: 360px;
+  }
+
+  .banner {
+    padding-top: 106px;
+    padding-bottom: 52px;
+  }
+
+  .header {
+    padding: 19px 0;
+  }
+
+  .header:after {
+    display: none;
+  }
+
+  .banner__title {
+    max-width: 280px;
+    font-size: 36px;
+    line-height: 42.26px;
+  }
+
+  .banner__text {
+    max-width: 280px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+
+  .banner__button {
+    max-width: 280px;
+  }
+
+  .header__logo {
+    padding: 0;
+  }
+
+  .header:after, .header__nav {
+    display: none;
+  }
+
+  .burger {
+    z-index: 1;
+    background: none;
+    border: none;
+    display: block;
+    position: relative;
+  }
+
+  .burger span {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=index.ee7f3cbd.css.map */
