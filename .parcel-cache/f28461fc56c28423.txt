@@ -15,7 +15,7 @@
 70C:\Users\admin\Desktop\ActiveBox\node_modules\css-what\lib\es\index.js133503157766088260 0
 94C:\Users\admin\Desktop\ActiveBox\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest.c133503157769329465 0
 61C:\Users\admin\Desktop\ActiveBox\src\images\facebook_icon.svg133505541094667534 0
-37C:\Users\admin\Desktop\ActiveBox\dist133509372354522325 1
+37C:\Users\admin\Desktop\ActiveBox\dist133509471868359702 1
 54C:\Users\admin\Desktop\ActiveBox\node_modules\escalade133503157767743716 1
 79C:\Users\admin\Desktop\ActiveBox\node_modules\css-tree\lib\syntax\node\Ratio.js133503157765918598 0
 71C:\Users\admin\Desktop\ActiveBox\node_modules\js-yaml\lib\type\pairs.js133503157768481737 0
@@ -145,7 +145,7 @@
 60C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\events133503157744786897 1
 116C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\scope\value.js133503157746602036 0
 63C:\Users\admin\Desktop\ActiveBox\node_modules\@msgpackr-extract133503157743769623 1
-53C:\Users\admin\Desktop\ActiveBox\src\style\style.scss133509372351938762 0
+53C:\Users\admin\Desktop\ActiveBox\src\style\style.scss133509471865795952 0
 112C:\Users\admin\Desktop\ActiveBox\node_modules\css-select\node_modules\entities\lib\esm\decode_codepoint.d.ts.map133503157764921038 0
 79C:\Users\admin\Desktop\ActiveBox\node_modules\is-fullwidth-code-point\readme.md133503157768332216 0
 82C:\Users\admin\Desktop\ActiveBox\node_modules\ordered-binary\assets\powers-dre.png133503157770266980 0
@@ -757,7 +757,7 @@
 97C:\Users\admin\Desktop\ActiveBox\node_modules\@swc\helpers\cjs\_class_private_field_loose_key.cjs133503157760522805 0
 80C:\Users\admin\Desktop\ActiveBox\node_modules\htmlnano\docs\docusaurus.config.js133503157767863391 0
 69C:\Users\admin\Desktop\ActiveBox\node_modules\utility-types\README.md133503157771752982 0
-63C:\Users\admin\Desktop\ActiveBox\dist\ActiveBox.59712999.js.map133509372353714476 0
+63C:\Users\admin\Desktop\ActiveBox\dist\ActiveBox.59712999.js.map133509471867526211 0
 71C:\Users\admin\Desktop\ActiveBox\node_modules\utility-types\SECURITY.md133503157771752982 0
 94C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\css-math-functions.js133503157762228242 0
 70C:\Users\admin\Desktop\ActiveBox\node_modules\utility-types\SUPPORT.md133503157771762953 0
@@ -891,7 +891,7 @@
 76C:\Users\admin\Desktop\ActiveBox\node_modules\css-what\lib\commonjs\parse.js133503157766058233 0
 61C:\Users\admin\Desktop\ActiveBox\node_modules\sass\types\util133503157770875333 1
 77C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\regions\KI.js133503157763654422 0
-48C:\Users\admin\Desktop\ActiveBox\dist\index.html133509372354452504 0
+48C:\Users\admin\Desktop\ActiveBox\dist\index.html133509471868284595 0
 74C:\Users\admin\Desktop\ActiveBox\node_modules\ordered-binary\tests\test.js133503157770286906 0
 110C:\Users\admin\Desktop\ActiveBox\node_modules\@swc\helpers\_\_class_static_private_field_spec_set\package.json133503157760223608 0
 76C:\Users\admin\Desktop\ActiveBox\node_modules\type-fest\source\asyncify.d.ts133503157771633302 0
@@ -951,7 +951,7 @@
 115C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\procedure.d.ts133503157745086144 0
 64C:\Users\admin\Desktop\ActiveBox\node_modules\lmdb\src\windows.c133503157769628664 0
 88C:\Users\admin\Desktop\ActiveBox\node_modules\type-fest\source\require-at-least-one.d.ts133503157771683164 0
-57C:\Users\admin\Desktop\ActiveBox\dist\photo4.5f42a2f5.png133509372353644663 0
+57C:\Users\admin\Desktop\ActiveBox\dist\photo4.5f42a2f5.png133509471867486311 0
 67C:\Users\admin\Desktop\ActiveBox\node_modules\msgpackr\iterators.js133503157769977732 0
 102C:\Users\admin\Desktop\ActiveBox\node_modules\@babel\code-frame\node_modules\supports-color\browser.js133503157743350735 0
 71C:\Users\admin\Desktop\ActiveBox\node_modules\csso\cjs\clean\Atrule.cjs133503157766128039 0
@@ -1716,7 +1716,7 @@
 69C:\Users\admin\Desktop\ActiveBox\node_modules\is-binary-path\index.js133503157768292246 0
 63C:\Users\admin\Desktop\ActiveBox\node_modules\csso\dist\csso.js133503157766277637 0
 79C:\Users\admin\Desktop\ActiveBox\node_modules\css-tree\cjs\syntax\node\Rule.cjs133503157765419996 0
-62C:\Users\admin\Desktop\ActiveBox\dist\banner_bckg.820c4515.png133509372354512357 0
+62C:\Users\admin\Desktop\ActiveBox\dist\banner_bckg.820c4515.png133509471868359702 0
 67C:\Users\admin\Desktop\ActiveBox\node_modules\posthtml\package.json133503157770506319 0
 86C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\transformer-postcss\package.json133503157757111935 0
 91C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\input-minlength.js133503157762746850 0
@@ -3201,7 +3201,7 @@
 69C:\Users\admin\Desktop\ActiveBox\node_modules\csso\lib\replace\atrule133503157766327503 1
 76C:\Users\admin\Desktop\ActiveBox\node_modules\csso\lib\replace\Percentage.js133503157766327503 0
 71C:\Users\admin\Desktop\ActiveBox\node_modules\csso\lib\replace\property133503157766347450 1
-57C:\Users\admin\Desktop\ActiveBox\dist\photo1.f06ccb1b.png133509372354492393 0
+57C:\Users\admin\Desktop\ActiveBox\dist\photo1.f06ccb1b.png133509471868334492 0
 71C:\Users\admin\Desktop\ActiveBox\node_modules\csso\lib\replace\Value.js133503157766327503 0
 68C:\Users\admin\Desktop\ActiveBox\node_modules\cli-progress\README.md133503157764113192 0
 86C:\Users\admin\Desktop\ActiveBox\node_modules\csso\lib\replace\property\font-weight.js133503157766347450 0
@@ -3562,7 +3562,7 @@
 114C:\Users\admin\Desktop\ActiveBox\node_modules\css-select\node_modules\entities\lib\generated\decode-data-html.d.ts133503157765010791 0
 65C:\Users\admin\Desktop\ActiveBox\node_modules\@lezer\lr\README.md133503157743590100 0
 118C:\Users\admin\Desktop\ActiveBox\node_modules\css-select\node_modules\entities\lib\generated\decode-data-html.d.ts.map133503157765010791 0
-59C:\Users\admin\Desktop\ActiveBox\dist\project8.789e2224.jpg133509372353644663 0
+59C:\Users\admin\Desktop\ActiveBox\dist\project8.789e2224.jpg133509471867486311 0
 116C:\Users\admin\Desktop\ActiveBox\node_modules\css-select\node_modules\entities\lib\generated\decode-data-html.js.map133503157765020762 0
 77C:\Users\admin\Desktop\ActiveBox\node_modules\cli-progress\lib\format-time.js133503157764133140 0
 82C:\Users\admin\Desktop\ActiveBox\node_modules\.bin\download-msgpackr-prebuilds.ps1133503157743161251 0
@@ -3688,7 +3688,7 @@
 90C:\Users\admin\Desktop\ActiveBox\node_modules\css-select\node_modules\domhandler\readme.md133503157764661725 0
 70C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\utils\test\input133503157757530815 1
 88C:\Users\admin\Desktop\ActiveBox\node_modules\css-select\node_modules\domhandler\lib\esm133503157764641783 1
-59C:\Users\admin\Desktop\ActiveBox\dist\project4.55a49554.jpg133509372353634692 0
+59C:\Users\admin\Desktop\ActiveBox\dist\project4.55a49554.jpg133509471867476340 0
 99C:\Users\admin\Desktop\ActiveBox\node_modules\css-select\node_modules\domhandler\lib\index.d.ts.map133503157764641783 0
 93C:\Users\admin\Desktop\ActiveBox\node_modules\css-select\node_modules\domhandler\lib\index.js133503157764651755 0
 98C:\Users\admin\Desktop\ActiveBox\node_modules\css-select\node_modules\domhandler\lib\node.d.ts.map133503157764651755 0
@@ -3802,7 +3802,7 @@
 78C:\Users\admin\Desktop\ActiveBox\node_modules\cosmiconfig\dist\ExplorerBase.js133503157764262794 0
 83C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\ac3-ec3.js133503157761839288 0
 82C:\Users\admin\Desktop\ActiveBox\node_modules\cosmiconfig\dist\ExplorerBase.js.map133503157764262794 0
-55C:\Users\admin\Desktop\ActiveBox\dist\index.09d9d7db.js133509372353674601 0
+55C:\Users\admin\Desktop\ActiveBox\dist\index.09d9d7db.js133509471867486311 0
 84C:\Users\admin\Desktop\ActiveBox\node_modules\cosmiconfig\dist\ExplorerSync.d.ts.map133503157764272767 0
 93C:\Users\admin\Desktop\ActiveBox\node_modules\@swc\helpers\cjs\_class_private_method_init.cjs133503157760532795 0
 78C:\Users\admin\Desktop\ActiveBox\node_modules\cosmiconfig\dist\ExplorerSync.js133503157764272767 0
@@ -4328,7 +4328,7 @@
 70C:\Users\admin\Desktop\ActiveBox\node_modules\@swc\types\tsconfig.json133503157761290755 0
 90C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\input-datetime.js133503157762726977 0
 93C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\input-file-accept.js133503157762736882 0
-57C:\Users\admin\Desktop\ActiveBox\dist\photo2.8c994cc1.png133509372353644663 0
+57C:\Users\admin\Desktop\ActiveBox\dist\photo2.8c994cc1.png133509471867486311 0
 93C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\input-placeholder.js133503157762756821 0
 87C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\input-range.js133503157762766815 0
 83C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\outline.js133503157762966265 0
@@ -4468,7 +4468,7 @@
 89C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\trusted-types.js133503157763225580 0
 85C:\Users\admin\Desktop\ActiveBox\node_modules\@swc\helpers\src\_wrap_native_super.mjs133503157761250856 0
 79C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\ttf.js133503157763235543 0
-59C:\Users\admin\Desktop\ActiveBox\dist\project7.e317bcc4.jpg133509372354452504 0
+59C:\Users\admin\Desktop\ActiveBox\dist\project7.e317bcc4.jpg133509471868284595 0
 103C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\url-scroll-to-text-fragment.js133503157763245518 0
 79C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\url.js133503157763245518 0
 91C:\Users\admin\Desktop\ActiveBox\node_modules\caniuse-lite\data\features\urlsearchparams.js133503157763245518 0
@@ -5250,7 +5250,7 @@
 77C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\profiler\lib\types.d.ts133503157747509607 0
 75C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\profiler\lib\types.js133503157747509607 0
 73C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\plugin\package.json133503157747469717 0
-59C:\Users\admin\Desktop\ActiveBox\dist\project1.990f1a6c.jpg133509372354452504 0
+59C:\Users\admin\Desktop\ActiveBox\dist\project1.990f1a6c.jpg133509471868284595 0
 77C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\plugin\src\PluginAPI.js133503157747479688 0
 77C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\plugin\lib\PluginAPI.js133503157747469717 0
 71C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\packager-wasm\lib133503157747449767 1
@@ -5615,7 +5615,7 @@
 121C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeScriptElement.js133503157746043533 0
 116C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeUnusedNS.js133503157746053505 0
 119C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeUselessDefs.js133503157746053505 0
-57C:\Users\admin\Desktop\ActiveBox\dist\photo3.de280af2.png133509372354452504 0
+57C:\Users\admin\Desktop\ActiveBox\dist\photo3.de280af2.png133509471868284595 0
 69C:\Users\admin\Desktop\ActiveBox\node_modules\@lezer\common\README.md133503157743550205 0
 128C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeUselessStrokeAndFill.js133503157746063473 0
 113C:\Users\admin\Desktop\ActiveBox\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeXMLNS.js133503157746063473 0
@@ -6080,12 +6080,12 @@
 59C:\Users\admin\Desktop\ActiveBox\node_modules\.bin\svgo.cmd133503157743231066 0
 59C:\Users\admin\Desktop\ActiveBox\node_modules\.bin\svgo.ps1133503157743231066 0
 77C:\Users\admin\Desktop\ActiveBox\node_modules\.bin\update-browserslist-db.cmd133503157743241036 0
-59C:\Users\admin\Desktop\ActiveBox\dist\ActiveBox.59712999.js133509372353684573 0
-56C:\Users\admin\Desktop\ActiveBox\dist\index.08963856.css133509372353664607 0
-60C:\Users\admin\Desktop\ActiveBox\dist\index.08963856.css.map133509372353704509 0
-59C:\Users\admin\Desktop\ActiveBox\dist\index.09d9d7db.js.map133509372353704509 0
-59C:\Users\admin\Desktop\ActiveBox\dist\project2.3b8a8920.jpg133509372353644663 0
-59C:\Users\admin\Desktop\ActiveBox\dist\project3.c6772457.jpg133509372354452504 0
-59C:\Users\admin\Desktop\ActiveBox\dist\project5.6b2c86c1.jpg133509372354452504 0
-59C:\Users\admin\Desktop\ActiveBox\dist\project6.cb63ba2c.jpg133509372353634692 0
-64C:\Users\admin\Desktop\ActiveBox\dist\slider__image.8ccaff04.jpg133509372354472449 0
+59C:\Users\admin\Desktop\ActiveBox\dist\ActiveBox.59712999.js133509471867486311 0
+56C:\Users\admin\Desktop\ActiveBox\dist\index.08963856.css133509471867476340 0
+60C:\Users\admin\Desktop\ActiveBox\dist\index.08963856.css.map133509471867516242 0
+59C:\Users\admin\Desktop\ActiveBox\dist\index.09d9d7db.js.map133509471867526211 0
+59C:\Users\admin\Desktop\ActiveBox\dist\project2.3b8a8920.jpg133509471867486311 0
+59C:\Users\admin\Desktop\ActiveBox\dist\project3.c6772457.jpg133509471868284595 0
+59C:\Users\admin\Desktop\ActiveBox\dist\project5.6b2c86c1.jpg133509471868284595 0
+59C:\Users\admin\Desktop\ActiveBox\dist\project6.cb63ba2c.jpg133509471867476340 0
+64C:\Users\admin\Desktop\ActiveBox\dist\slider__image.8ccaff04.jpg133509471868304546 0
